@@ -25,7 +25,7 @@ spec:
         - $KAFKA_HOME/bin/kafka-console-producer.sh --broker-list 172.17.0.2:9092
           --topic test
         image: spotify/kafka
-        name: kafka_producer
+        name: kafka-producer
         resources: {}
       restartPolicy: Always
 status: {}
