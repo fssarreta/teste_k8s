@@ -25,7 +25,7 @@ spec:
         - $KAFKA_HOME/bin/kafka-console-consumer.sh --zookeeper 172.17.0.2:2181 --topic
           test
         image: spotify/kafka
-        name: kafka_consumer
+        name: kafka-consumer
         resources: {}
       restartPolicy: Always
 status: {}
